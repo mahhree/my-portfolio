@@ -4,8 +4,8 @@ import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
-//import 'animate.css';
-//import TrackVisibility from 'react-on-screen';
+import 'animate.css';
+import TrackVisibility from 'react-on-screen';
 
 export const Projects = () => {
 
@@ -47,7 +47,7 @@ export const Projects = () => {
       <Container>
         <Row>
           <Col size={12}>
-            {/* <TrackVisibility> */}
+            <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Projects</h2>
@@ -79,7 +79,7 @@ export const Projects = () => {
                         }
                       </Row>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="section">
+                    <Tab.Pane eventKey="second">
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
@@ -88,7 +88,7 @@ export const Projects = () => {
                   </Tab.Content>
                 </Tab.Container>
               </div>}
-            {/* </TrackVisibility> */}
+            </TrackVisibility>
           </Col>
         </Row>
       </Container>

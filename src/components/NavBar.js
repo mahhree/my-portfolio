@@ -48,7 +48,7 @@ export const NavBar = () => {
                 <img src={navIcon1} alt="" />
               </a>
             </div>
-            <button className="vvd" onClick={() => console.log("connect")}>
+            <button className="vvd" onClick={() => console.log("Contact")}>
               <span> Let's Connect</span>
             </button>
           </span>
