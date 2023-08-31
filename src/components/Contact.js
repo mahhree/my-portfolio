@@ -42,14 +42,14 @@ const handleSubmit = async (e) => {
 
 
 return (
-    <section className="contact" id="connect">
+    <section className="contact" id="contact">
         <Container>
             <Row className="align-items-center">
                 <Col md={6}>
                     <img src={contactImg} alt="Contact Us"/>
                 </Col>
                 <Col md={6}>
-                    <h2>Get In Touch!</h2>\
+                    <h2>Get In Touch!</h2>
                     <form onSubmit={handleSubmit}>
                         <Row>
                             <Col sm={6} className="px-1">
@@ -64,7 +64,7 @@ return (
                             <Col sm={6} className="px-1">
                                 <input type="tel" value={formDetails.phone} placeholder="Phone Number" onChange={(e) => onFormUpdate('phone', e.target.value)}/>
                             </Col>
-                            <Col>
+                            <Col sm={12} className="px-1">
                                 <textarea row="6" value={formDetails.meggase} placefolder="Message" onChange={(e) => onFormUpdate('message', e.target.value)}/>
                                 <button type="submit"><span>{buttonText}</span></button>
                             </Col>

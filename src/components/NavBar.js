@@ -1,9 +1,10 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import { useState, useEffect } from "react";
+import { React, useState, useEffect } from "react";
 import logo from '../assets/img/logo.svg';
 import navIcon1 from '../assets/img/nav-icon1.svg';
+import { Link, useHistory } from 'react-router-dom';
 
 
 export const NavBar = () => {
@@ -31,7 +32,7 @@ export const NavBar = () => {
     <Navbar expand="lg" className={scrolled ? "scrolled": ""}>
       <Container>
         <Navbar.Brand href="#home">
-          <img src={logo} alt="Logo" />
+          <img src={logo} alt="LOGO" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
           <span className="navbar-toggler-icon"></span>
@@ -48,7 +49,7 @@ export const NavBar = () => {
                 <img src={navIcon1} alt="" />
               </a>
             </div>
-            <button className="vvd" onClick={() => console.log("Contact")}>
+            <button className="vvd" onClick={() => console.log('contact')}>
               <span> Let's Connect</span>
             </button>
           </span>
