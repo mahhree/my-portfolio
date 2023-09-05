@@ -3,8 +3,9 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { React, useState, useEffect } from "react";
 import logo from '../assets/img/logo.svg';
-import navIcon1 from '../assets/img/nav-icon1.svg';
-import { Link, useHistory } from 'react-router-dom';
+import LinkedInIcon from '../assets/img/linkedInIcon.svg';
+import GitHubIcon from '../assets/img/github-icon.png';
+// import { Link, useHistory } from 'react-router-dom';
 
 
 export const NavBar = () => {
@@ -46,7 +47,12 @@ export const NavBar = () => {
           <span className="navbar-text">
             <div className="social-icon">
               <a href="https://www.linkedin.com/in/marie-karibyan-3b7937214/" target="_blank" rel="noopener noreferrer">
-                <img src={navIcon1} alt="" />
+                <img src={LinkedInIcon} alt="" />
+              </a>
+              </div>
+              <div className="social-iconGH">
+              <a href="https://github.com/mahhree" target="_blank" rel="noopener noreferrer">
+                <img src={GitHubIcon} alt="" />
               </a>
             </div>
             <button className="vvd" onClick={() => console.log('contact')}>

@@ -8,10 +8,14 @@ import TrackVisibility from 'react-on-screen';
 export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setisDeleting] = useState(false);
-    const toRotate = ["Software Engineer", "Web Developer", "Full Stack Developer"]
+    const toRotate = ["Software Engineer", "Full Stack Developer"]
     const [text,setText] = useState('');
     const period = 2000;
     const [delta, setDelta] = useState(300 -Math.random() * 100);
+    const aboutMe = <p>I am an Armenian American with a passion for technology and a Bachelor's degree in Computer Science.  
+      My portfolio serves as a window into my world, showcasing the projects that I'm most proud of and the technologies I've mastered. 
+      As you explore, you'll get a glimpse of my dedication to creating meaningful solutions and my commitment to continuous learning and professional growth. 
+      If you'd like to delve deeper into my qualifications, feel free to download my full resume [insert resume link]. </p>
 
     useEffect(() => {
         let ticker = setInterval(() => {
@@ -51,13 +55,10 @@ export const Banner = () => {
               <div className={isVisible ? "animated_animated animate__fadeIn" : ""}>
                   <span className="tagline"> Welcome to my Portfolio</span>
                   <h1>
-                    {`Hi I'm Marie Karibyan! `}<br/>
-                    <span className="wrap">{" " + text}</span>
+                  &nbsp;{`Hi I'm Marie Karibyan! `}<br/>
+                    <span className="wrap">&nbsp;{text}</span>
                   </h1>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  </p>
+                  <p>{aboutMe}</p>
                   <button onClick={() => console.log('connect')}>Let's connect<ArrowRightCircle size={25}/></button>
               </div>}
               </TrackVisibility>
