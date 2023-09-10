@@ -2,7 +2,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { React, useState, useEffect } from "react";
-import logo from '../assets/img/logo.svg';
+import logo from '../assets/img/coffee_small_logo.png';
 import LinkedInIcon from '../assets/img/linkedInIcon.svg';
 import GitHubIcon from '../assets/img/github-icon.png';
 
@@ -54,7 +54,7 @@ export const NavBar = () => {
                 <img src={GitHubIcon} alt="" />
               </a>
             </div>
-            <button className="vvd" onClick={() => console.log('contact')}>
+            <button className="vvd" onClick = {() => onUpdateActiveLink('projects')}>
               <span> Let's Connect</span>
             </button>
           </span>

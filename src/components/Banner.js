@@ -15,7 +15,7 @@ export const Banner = () => {
     const aboutMe = <p>I am an Armenian American with a Bachelor's degree in Computer Science and a passion for technology.  
       My portfolio serves as a window into my world, showcasing the projects that I'm most proud of and the technologies I've mastered. 
       As you explore, you'll get a glimpse of my dedication to creating meaningful solutions and my commitment to continuous learning and professional growth. 
-      If you'd like to delve deeper into my qualifications, feel free to download my full resume <a href="path_to_file" download="proposed_file_name">here</a>. </p>
+      If you'd like to delve deeper into my qualifications, feel free to download my full resume <a href="MK_resume.pdf" download="MK_resume">here</a>. </p>
 
     useEffect(() => {
         let ticker = setInterval(() => {
@@ -59,7 +59,7 @@ export const Banner = () => {
                     <span className="wrap">&nbsp;{text}</span>
                   </h1>
                   <p>{aboutMe}</p>
-                  <button onClick={() => console.log('connect')}>Let's connect<ArrowRightCircle size={25}/></button>
+                  <button onClick={() => console.log('contact')}>Let's connect<ArrowRightCircle size={25}/></button>
               </div>}
               </TrackVisibility>
             </Col>
