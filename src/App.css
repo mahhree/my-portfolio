@@ -291,7 +291,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .banner h1 {
   color: #f0f0f5;
-  font-size: 58px;
+  font-size: 30px;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1;
@@ -463,7 +463,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .proj-imgbx::before {
   content: "";
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background: linear-gradient( rgb(100, 57, 26),rgb(203, 135, 87));
   opacity: 0.85;
   position: absolute;
   width: 100%;

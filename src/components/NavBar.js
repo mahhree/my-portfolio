@@ -5,7 +5,6 @@ import { React, useState, useEffect } from "react";
 import logo from '../assets/img/logo.svg';
 import LinkedInIcon from '../assets/img/linkedInIcon.svg';
 import GitHubIcon from '../assets/img/github-icon.png';
-// import { Link, useHistory } from 'react-router-dom';
 
 
 export const NavBar = () => {

@@ -12,10 +12,10 @@ export const Banner = () => {
     const [text,setText] = useState('');
     const period = 2000;
     const [delta, setDelta] = useState(300 -Math.random() * 100);
-    const aboutMe = <p>I am an Armenian American with a passion for technology and a Bachelor's degree in Computer Science.  
+    const aboutMe = <p>I am an Armenian American with a Bachelor's degree in Computer Science and a passion for technology.  
       My portfolio serves as a window into my world, showcasing the projects that I'm most proud of and the technologies I've mastered. 
       As you explore, you'll get a glimpse of my dedication to creating meaningful solutions and my commitment to continuous learning and professional growth. 
-      If you'd like to delve deeper into my qualifications, feel free to download my full resume [insert resume link]. </p>
+      If you'd like to delve deeper into my qualifications, feel free to download my full resume <a href="path_to_file" download="proposed_file_name">here</a>. </p>
 
     useEffect(() => {
         let ticker = setInterval(() => {
@@ -55,7 +55,7 @@ export const Banner = () => {
               <div className={isVisible ? "animated_animated animate__fadeIn" : ""}>
                   <span className="tagline"> Welcome to my Portfolio</span>
                   <h1>
-                  &nbsp;{`Hi I'm Marie Karibyan! `}<br/>
+                  &nbsp;Hello,&nbsp;I'm&nbsp;Marie&nbsp;Karibyan!<br/>
                     <span className="wrap">&nbsp;{text}</span>
                   </h1>
                   <p>{aboutMe}</p>
