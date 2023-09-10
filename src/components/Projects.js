@@ -1,5 +1,4 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
-import { ProjectCards } from "./ProjectCards";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
@@ -39,32 +38,43 @@ export const Projects = () => {
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
-                      <Nav.Link eventKey="first">Video Game</Nav.Link>
+                      <Nav.Link eventKey="first">1</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="second">Spotify API</Nav.Link>
+                      <Nav.Link eventKey="second">2</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="third">Website</Nav.Link>
+                      <Nav.Link eventKey="third">3</Nav.Link>
                     </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <Tab.Pane eventKey="first">
                       <Row>
-                        {
-                          projects.map((project, index) => {
-                            return (
-                              <ProjectCards
-                                key={index}
-                                {...project}
-                                />
-                            )
-                          })
-                        }
+                      <Col size={12} sm={6} md={4}>
+                        <div className="proj-imgbx">
+                          <img src={projImg1} />
+                          <div className="proj-txtx">
+                            <h4>{'GitHub Code'}</h4>
+                          </div>
+                        </div>
+                      </Col>
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
+                    <Row>
+                      <Col size={12} sm={6} md={4}>
+                        <div className="proj-imgbx">
+                          <img src={projImg1} />
+                          <div className="proj-txtx">
+                            <h4>{'GitHub Code'}</h4>
+                          </div>
+                        </div>
+                      </Col>
+                      <Col>
                       <p>some stuff about this proj ADD A PIC</p>
+                      </Col>
+                      </Row>
+                      
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
                     <p>some stuff about this proj ADD A PIC</p>                    

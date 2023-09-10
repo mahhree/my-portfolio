@@ -15,7 +15,7 @@ export const Banner = () => {
     const aboutMe = <p>I am an Armenian American with a Bachelor's degree in Computer Science and a passion for technology.  
       My portfolio serves as a window into my world, showcasing the projects that I'm most proud of and the technologies I've mastered. 
       As you explore, you'll get a glimpse of my dedication to creating meaningful solutions and my commitment to continuous learning and professional growth. 
-      If you'd like to delve deeper into my qualifications, feel free to download my full resume <a href="/MK_resume.pdf" download>here</a>. </p>
+</p>
 
     useEffect(() => {
         let ticker = setInterval(() => {
