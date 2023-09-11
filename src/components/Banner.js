@@ -10,7 +10,7 @@ export const Banner = () => {
     const [isDeleting, setisDeleting] = useState(false);
     const toRotate = ["Software Engineer", "Full Stack Developer"]
     const [text,setText] = useState('');
-    const period = 2000;
+    const period = 1250;
     const [delta, setDelta] = useState(300 -Math.random() * 100);
     const aboutMe = <p>I am an Armenian American with a Bachelor's degree in Computer Science.  
       My portfolio serves as a window into my world, showcasing the projects that I'm most proud of and the skills I've mastered. 
@@ -59,7 +59,7 @@ export const Banner = () => {
                     <span className="wrap">&nbsp;{text}</span>
                   </h1>
                   <p>{aboutMe}</p>
-                  <button onClick={() => console.log('contact')}>Let's connect<ArrowRightCircle size={25}/></button>
+                  <button onClick={() => window.location.hash = "connect"}>Let's connect<ArrowRightCircle size={25}/></button>
               </div>}
               </TrackVisibility>
             </Col>

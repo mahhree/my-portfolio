@@ -535,14 +535,42 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 60px 0 200px 0;
 }
 .contact img {
-  width: 92%;
+  width: 90%;
 }
 .contact h2 {
+  color: #e5e1e1;
 	font-size: 30px;
 	font-weight: 700;
-  margin-bottom: 30px;
+  text-align: center;
+  margin-bottom:20%;
 }
-.contact form input, .contact form textarea {
+
+.contact-button {
+  font-weight: 700;
+  color: #e5e1e1;;
+  border: 1px solid #e5e1e1;;
+  padding: 18px 34px;
+  font-size: 18px;
+  margin-right: 10px;
+  margin-left: 10px;
+	position:relative;
+	background-color: transparent;
+	transition: 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+
+
+.contact-button:hover {
+  background-color: rgb(55, 27, 5); 
+ }  
+
+
+
+
+/* ***form section does not work *** */
+
+/* .contact form input, .contact form textarea {
   width: 100%;
   background: rgba(255, 255, 255, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.5);
@@ -599,23 +627,4 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .contact form button:hover::before {
   width: 100%;
-}
-
-/* .footer {
-  padding: 0 0 50px 0;
-  /* background-image: url('./assets/img/footer-bg.png'); */
-  /* background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.footer img {
-  width: 26%;
-}
-.footer p {
-  font-weight: 400;
-  font-size: 14px;
-  color: #B8B8B8;
-  letter-spacing: 0.5px;
-  margin-top: 20px;
-} */ 
+} */

@@ -54,8 +54,8 @@ export const NavBar = () => {
                 <img src={GitHubIcon} alt="" />
               </a>
             </div>
-            <button className="vvd" onClick = {() => onUpdateActiveLink('projects')}>
-              <span> Let's Connect</span>
+            <button className="vvd" onClick={() => window.location.hash = "connect"}>
+              Lets connect
             </button>
           </span>
         </Navbar.Collapse>
