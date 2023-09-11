@@ -354,7 +354,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .skill h2 {
   color: #f0f0f5;
-	font-size: 45px;
+	font-size: 30px;
 	font-weight: 700;
 }
 .skill p {
@@ -388,7 +388,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-color: rgb(23, 11, 2);
 }
 .project h2 {
-	font-size: 45px;
+	font-size: 30px;
 	font-weight: 700;
   text-align: center;
   color: #f0f0f5;
@@ -396,6 +396,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project p {
   color: #e5e1e1;
   font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 14px auto 30px auto;
+  text-align: center;
+  width: 56%;
+}
+.project h3 {
+  color: #e5e1e1;
+  font-size: 23px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
   margin: 14px auto 30px auto;
@@ -418,7 +427,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 17px 0;
   color: #fff;
   width: 100%;
-  font-size: 17px;
+  font-size: 15px;
   letter-spacing: 0.8px;
   font-weight: 500;
   position: relative;
@@ -517,7 +526,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 92%;
 }
 .contact h2 {
-	font-size: 45px;
+	font-size: 30px;
 	font-weight: 700;
   margin-bottom: 30px;
 }
@@ -582,7 +591,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .footer {
   padding: 0 0 50px 0;
-  background-image: url('./assets/img/footer-bg.png');
+  /* background-image: url('./assets/img/footer-bg.png'); */
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;

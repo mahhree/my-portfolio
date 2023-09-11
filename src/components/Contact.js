@@ -1,6 +1,6 @@
 import {useState} from "react";
 import {Row, Col, Container} from "react-bootstrap";
-import contactImg from "../assets/img/contact-img.svg";
+import contactImg from "../assets/img/contact_me_img.png";
 
 export const Contact = () => {
 const formInitialDetails = {
@@ -50,6 +50,10 @@ return (
                 </Col>
                 <Col md={6}>
                     <h2>Get In Touch!</h2>
+                    <p>
+                        Add me on <a href="https://www.linkedin.com/in/marie-karibyan-3b7937214/" target="_blank">LinkedIn</a>,
+                         send me an <a href="mailto:mariekaribyan@gmail.com?subject=Let's%20Connect!" target="_top">email</a>,
+                         or contact me below!</p>
                     <form onSubmit={handleSubmit}>
                         <Row>
                             <Col sm={6} className="px-1">
