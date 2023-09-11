@@ -97,8 +97,8 @@ export const Projects = () => {
                           <h3>Portfolio Website</h3>
                           <p>I single-handedly developed this website using React, HTML, CSS, and Bootstrap, 
                             showcasing my proficiency as a full-stack developer. 
-                            I deployed the project on Amazon Web Services and configured it with my personal domain. 
-                            Feel free to check out the code on GitHub!</p>
+                            The site is deployed using Amazon Web Services and configured with my personal domain. I even created some of the assets you see displayed!
+                            Feel free to check out the code on GitHub.</p>
                         </span>
                       </Col>
                       </Row>                       

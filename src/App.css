@@ -601,7 +601,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 100%;
 }
 
-.footer {
+/* .footer {
   padding: 0 0 50px 0;
   /* background-image: url('./assets/img/footer-bg.png'); */
   background-position: center center;
@@ -618,4 +618,4 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: #B8B8B8;
   letter-spacing: 0.5px;
   margin-top: 20px;
-}
+} */
