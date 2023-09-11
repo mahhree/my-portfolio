@@ -73,7 +73,7 @@ export const Projects = () => {
                         <span>
                           <h3>Spotify API</h3>
                           <p>I formed a machine learning model to predict how new songs will perform on 
-                            Spotify's top chats by finding correlations between genre, danceability, 
+                            Spotify's top charts by finding correlations between genre, danceability, 
                             beats per minute, and other datasets about each title. 
                             The project utilizes Spotify's API, Python, and 
                             supported libraries such as Pandas and NumPy. Feel free to check out the code on GitHub!</p>

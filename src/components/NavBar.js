@@ -55,7 +55,7 @@ export const NavBar = () => {
               </a>
             </div>
             <button className="vvd" onClick={() => window.location.hash = "connect"}>
-              Lets connect
+              Lets connect 
             </button>
           </span>
         </Navbar.Collapse>
