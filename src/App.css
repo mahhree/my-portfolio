@@ -517,6 +517,18 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
+.project a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.project a:hover {
+  color: rgb(193, 112, 31);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
 /************ Projects Css ************/
 .contact {
   background: linear-gradient(rgb(23, 11, 2), rgb(100, 57, 26),rgb(203, 135, 87));

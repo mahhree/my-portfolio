@@ -1,7 +1,7 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
-import projImg1 from "../assets/img/coffee_cup.png";
-// import projImg2 from "../assets/img/project-img2.png";
-// import projImg3 from "../assets/img/project-img3.png";
+import projImg3 from "../assets/img/coffee_cup.png";
+ import projImg2 from "../assets/img/Spotify.png";
+ import projImg1 from "../assets/img/Unity.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -39,16 +39,22 @@ export const Projects = () => {
                       <Row>
                       <Col size={12} sm={6} md={4}>
                         <div className="proj-imgbx">
-                          <img src={projImg1} />
+                          <img src={projImg1}  alt="PROJ IMG"/>
                           <div className="proj-txtx">
-                            <h4>{'GitHub Code'}</h4>
+                          <a href="https://github.com/mahhree?tab=repositories" target="_blank" rel="noopener noreferrer"><h4>GitHub Code</h4></a>
                           </div>
                         </div>
                       </Col>
                       <Col>
                         <span>
                           <h3>3D Video Game</h3>
-                          <p>ABOUT</p>
+                          <p>My game, developed in Unity and powered by C++, combines custom designs crafted with Asset Forge and 
+                            Unity Assets to create unique models. It explains various aspects of game development, 
+                            including game math, collision detection, physics, 3D graphics, and animations. 
+                            The game is set in a forest maze, following a gripping horror theme and enhanced by ominous sounds 
+                            that heighten the suspenseful gaming experience. 
+                            Players navigate with straightforward controls for movement, interactions, and weapon usage.
+                          </p>
                         </span>
                       </Col>
                       </Row>
@@ -57,16 +63,20 @@ export const Projects = () => {
                     <Row>
                       <Col size={12} sm={6} md={4}>
                         <div className="proj-imgbx">
-                          <img src={projImg1} />
+                          <img src={projImg2} alt="PROJ IMG"/>
                           <div className="proj-txtx">
-                            <h4>{'GitHub Code'}</h4>
+                          <a href="https://github.com/mahhree/SpotifyMLGroupProject" target="_blank" rel="noopener noreferrer"><h4>GitHub Code</h4></a>
                           </div>
                         </div>
                       </Col>
                       <Col>
                         <span>
                           <h3>Spotify API</h3>
-                          <p>ABOUT</p>
+                          <p>I formed a machine learning model to predict how new songs will perform on 
+                            Spotify's top chats by finding correlations between genre, danceability, 
+                            beats per minute, and other datasets about each title. 
+                            The project utilizes Spotify's API, Python, and 
+                            supported libraries such as Pandas and NumPy. Feel free to check out the code on GitHub!</p>
                         </span>
                       </Col>
                     </Row>                      
@@ -75,9 +85,10 @@ export const Projects = () => {
                     <Row>
                       <Col size={12} sm={6} md={4}>
                         <div className="proj-imgbx">
-                          <img src={projImg1} />
+                          <img src={projImg3} alt="PROJ IMG"/>
                           <div className="proj-txtx">
-                            <h4>{'GitHub Code'}</h4>
+                          <a href="https://github.com/mahhree/my-portfolio" target="_blank" rel="noopener noreferrer"><h4>GitHub Code</h4>
+                          </a>
                           </div>
                         </div>
                       </Col>

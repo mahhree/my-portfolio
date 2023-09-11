@@ -43,7 +43,7 @@ const handleSubmit = async (e) => {
 
 return (
     <section className="contact" id="contact">
-        <Container>
+        <Container> 
             <Row className="align-items-center">
                 <Col md={6}>
                     <img src={contactImg} alt="Contact Us"/>
@@ -51,7 +51,7 @@ return (
                 <Col md={6}>
                     <h2>Get In Touch!</h2>
                     <p>
-                        Add me on <a href="https://www.linkedin.com/in/marie-karibyan-3b7937214/" target="_blank">LinkedIn</a>,
+                        Add me on <a href="https://www.linkedin.com/in/marie-karibyan-3b7937214/" target="_blank" rel="noopener noreferrer">LinkedIn</a>,
                          send me an <a href="mailto:mariekaribyan@gmail.com?subject=Let's%20Connect!" target="_top">email</a>,
                          or contact me below!</p>
                     <form onSubmit={handleSubmit}>
