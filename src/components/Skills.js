@@ -24,9 +24,12 @@ export const Skills = () => {
         }
       };
 
-    const skillsP = <p>Through my academic, professional, and private experiences, I have cultivated a diverse set of skills. 
-        They are not only technical; they are life skills that enhance my ability to navigate challenging situations, collaborate effectively, and innovate in different aspects of my life. 
-        Below, you will find a comprehensive list, each one developed through a combination of education and real-world application</p>
+    const skillsP = <p>Through my academic, professional, and personal experiences, 
+        I have cultivated a diverse set of skills. My skills are not only technical; 
+        they are life skills that enhance my ability to navigate challenging situations, 
+        collaborate effectively, and innovate in different aspects of my life.
+         Below, you will find a comprehensive list, each one developed through a combination 
+         of education and real-world application.</p>
 
 
     return (

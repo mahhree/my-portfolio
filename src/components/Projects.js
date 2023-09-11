@@ -49,7 +49,7 @@ export const Projects = () => {
                         <span>
                           <h3>3D Video Game</h3>
                           <p>My game, developed in Unity and powered by C++, combines custom designs crafted with Asset Forge and 
-                            Unity Assets to create unique models. It explains various aspects of game development, 
+                            Unity Assets to create unique models. My game showcases various aspects of game development, 
                             including game math, collision detection, physics, 3D graphics, and animations. 
                             The game is set in a forest maze, following a gripping horror theme and enhanced by ominous sounds 
                             that heighten the suspenseful gaming experience. 
@@ -97,7 +97,7 @@ export const Projects = () => {
                           <h3>Portfolio Website</h3>
                           <p>I single-handedly developed this website using React, HTML, CSS, and Bootstrap, 
                             showcasing my proficiency as a full-stack developer. 
-                            The site is deployed using Amazon Web Services and configured with my personal domain. I even created some of the assets you see displayed!
+                            The site is deployed using Amazon Web Services. I even created some of the assets you see displayed!
                             Feel free to check out the code on GitHub.</p>
                         </span>
                       </Col>
