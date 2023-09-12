@@ -12,7 +12,7 @@ export const Banner = () => {
     const [text,setText] = useState('');
     const period = 1250;
     const [delta, setDelta] = useState(300 -Math.random() * 100);
-    const aboutMe = <p>I graduated with a Bachelor's degree in Computer Science.  
+    const aboutMe = <p>I am a Software Engineer with a Bachelor's degree in Computer Science.  
       My portfolio serves as a window into my world, showcasing the projects that I'm most proud of and the skills I've mastered. 
       As you explore, you'll get a glimpse of my dedication to creating meaningful solutions and my commitment to continuous learning and professional growth. 
 </p>
