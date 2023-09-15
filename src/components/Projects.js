@@ -48,7 +48,7 @@ export const Projects = () => {
                       <Col>
                         <span>
                           <h3>3D Video Game</h3>
-                          <p>My game, developed in Unity and powered by C++, combines custom designs crafted with Asset Forge and 
+                          <p>My game, developed in Unity and powered by C#, combines custom designs crafted with Asset Forge and 
                             Unity Assets to create unique models. My game showcases various aspects of game development, 
                             including game math, collision detection, physics, 3D graphics, and animations. 
                             The game is set in a forest maze, following a gripping horror theme and enhanced by ominous sounds 
