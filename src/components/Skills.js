@@ -55,7 +55,8 @@ export const Skills = () => {
                                     <h5>HTML</h5>
                                     <h5>CSS</h5>
                                     <h5>Bootstrap</h5>
-                                    <h5>Atlassian</h5>
+                                    <h5>JIRA</h5>
+                                    <h5>Confluence</h5>
                                 </div>
                                 <div className="item">
                                     <h5>Full-Stack Development</h5>
