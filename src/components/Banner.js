@@ -8,14 +8,21 @@ import TrackVisibility from 'react-on-screen';
 export const Banner = () => { 
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setisDeleting] = useState(false);
-    const toRotate = ["Software Engineer", "Full Stack Developer"]
+    const toRotate = ["Software Engineer"]
     const [text,setText] = useState('');
     const period = 1250;
     const [delta, setDelta] = useState(300 -Math.random() * 100);
-    const aboutMe = <p>I am a Software Engineer with a Bachelor's degree in Computer Science.  
-      My portfolio serves as a window into my world, showcasing the projects that I'm most proud of and the skills I've mastered. 
-      As you explore, you'll get a glimpse of my dedication to creating meaningful solutions and my commitment to continuous learning and professional growth. 
-</p>
+    const aboutMe1 = <p>
+      I am a Software Engineer at Premier America Credit Union with a Bachelor of Science in Computer Science.My work centers on delivering secure, intuitive digital banking solutions that place member experience at the forefront.I contribute across the technology stack, from refining user interfaces to building dependable backend services, and I partner closely with design, product, and compliance teams to translate requirements into production ready code.
+      </p>
+    const aboutMe2 = <p>
+      User experience informs every technical decision.I streamline workflows, automate routine tasks, and shorten release cycles
+      while upholding rigorous standards
+      for security, performance, and documentation.Continuous learning and knowledge sharing are essential parts of my practice.
+      </p>
+    const aboutMe3 = <p>
+      The projects in this portfolio reflect that approach.I begin by listening to stakeholders, validate ideas with users, iterate quickly, and deliver measurable improvements.Your feedback is welcome, and I look forward to new challenges.
+      </p>
 
     useEffect(() => {
         let ticker = setInterval(() => {
@@ -58,7 +65,9 @@ export const Banner = () => {
                   &nbsp;Hello,&nbsp;I'm&nbsp;Marie&nbsp;Karibyan!<br/>
                     <span className="wrap">&nbsp;{text}</span>
                   </h1>
-                  <p>{aboutMe}</p>
+                  <p>{aboutMe1}</p>
+                  <p>{aboutMe2}</p>
+                  <p>{aboutMe3}</p>
                   <button onClick={() => window.location.hash = "connect"}>Let's connect<ArrowRightCircle size={25}/></button>
               </div>}
               </TrackVisibility>

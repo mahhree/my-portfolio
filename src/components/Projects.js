@@ -7,9 +7,10 @@ import TrackVisibility from 'react-on-screen';
 
 export const Projects = () => {
 
-  const projectsP = <p>Here are a few of my favorite projects, 
-    which have significantly contributed to my learning and hands-on experience. 
-    You may explore more of my work on my GitHub profile.</p>
+  // const projectsP = <p>Here are a few of my favorite projects, 
+  //   which have significantly contributed to my learning and hands-on experience. 
+  //   You may explore more of my work on my GitHub profile.</p>
+  const projectsP = <p></p>
 
 
   return (

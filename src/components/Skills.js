@@ -47,28 +47,23 @@ export const Skills = () => {
                                     <h5>Java</h5>
                                     <h5>C++</h5>
                                     <h5>Python</h5>
-                                    <h5>SQL</h5>
+                                    <h5>JavaScript</h5>
+                                </div>
+                                <div className="item">
                                     <h5>React</h5>
+                                    <h5>HTML & CSS</h5>
+                                    <h5>C#</h5>
+                                    <h5>SQL</h5>
                                 </div>
                                 <div className="item">
-                                <h5>JavaScript</h5>
-                                    <h5>HTML</h5>
-                                    <h5>CSS</h5>
-                                    <h5>Bootstrap</h5>
-                                    <h5>JIRA</h5>
-                                    <h5>Confluence</h5>
+                                    <h5>Git</h5>
+                                    <h5>JIRA & Confluence</h5>
+                                    <h5>Technical Documentation</h5>
+                                    <h5>Mentoring</h5>
+                                    
                                 </div>
                                 <div className="item">
-                                    <h5>Full-Stack Development</h5>
-                                    <h5>Data Analysis and Visualization</h5>
-                                    <h5>Database Administration</h5>
-                                    <h5>Game Development</h5>
-                                    <h5>Git Version Control</h5>
-                                </div>
-                                <div className="item">
-                                    <h5>Technical Writing</h5>
-                                    <h5>Problem Solving</h5>
-                                    <h5>Time Managament</h5>
+                                    <h5>Time Management</h5>
                                     <h5>Adaptability</h5>
                                 </div>
                             </Carousel>
