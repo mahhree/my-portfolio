@@ -52,7 +52,7 @@ const Hero = ({ onAddItem }) => {
           Today's Special
         </p>
         <h1 style={{ fontSize: 46, fontWeight: 700, lineHeight: 1.15, margin: '0 0 8px', color: '#2C1A0E' }}>
-          Crafting Digital<br />Experiences
+          Marie Karibyan
         </h1>
         <p style={{ fontSize: 12, color: '#9B7B5A', marginBottom: 16, fontStyle: 'italic' }}>
           Full-Stack Software Engineer · Premier America Credit Union

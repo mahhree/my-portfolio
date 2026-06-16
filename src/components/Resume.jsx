@@ -13,8 +13,8 @@ const Resume = ({ onAddItem }) => {
         A full overview of my experience, skills, and projects on one page.
       </p>
       <a
-        href="/resume.pdf"
-        download="Marie_Karibyan_Resume.pdf"
+        href="/Marie-Karibyan-Resume.pdf"
+        download="Marie-Karibyan-Resume.pdf"
         onClick={() => onAddItem('Resume Download', PRICES.resume)}
         style={{
           display: 'inline-flex',

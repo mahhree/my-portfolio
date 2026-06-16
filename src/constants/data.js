@@ -1,12 +1,10 @@
 import coffeeCup from '../assets/img/coffee_cup.png';
 import coffeeMug from '../assets/img/header-img.gif';
-import coffeeSmallLogo from '../assets/img/coffee_small_logo.png';
 import cafeLogo from '../assets/img/cafeLogo.png';
 
 export const IMAGES = {
   coffeeCup,
   coffeeMug,
-  coffeeSmallLogo,
   cafeLogo,
 };
 
@@ -30,12 +28,13 @@ export const SKILL_COLORS = [
 ];
 
 export const skills = [
-  { img: coffeeCup, name: 'React & Angular',   desc: 'Full-stack UI development' },
-  { img: coffeeCup, name: 'TypeScript & JS',   desc: 'Typed, maintainable code' },
-  { img: coffeeCup, name: 'Node.js & Python',  desc: 'Backend APIs & services' },
-  { img: coffeeCup, name: 'RESTful APIs',       desc: 'Secure integrations' },
-  { img: coffeeCup, name: 'Agile / Scrum',      desc: 'Sprint-based delivery' },
-  { img: coffeeCup, name: 'C++ (In Progress)',  desc: 'Systems-level programming' },
+  { img: coffeeCup, name: 'React & Angular',   desc: '' },
+  { img: coffeeCup, name: 'TypeScript',   desc: '' },
+  { img: coffeeCup, name: 'Node.js & Python',  desc: '' },
+  { img: coffeeCup, name: 'Agile / Scrum',      desc: '' },
+  { img: coffeeCup, name: 'C++ & Java',  desc: '' },
+  { img: coffeeCup, name: 'Git',       desc: '' },
+
 ];
 
 export const projects = [
@@ -48,17 +47,17 @@ export const projects = [
   },
   {
     img: coffeeCup,
+    bg: '#9B7CC8',
+    title: 'Remote Deposit Holds System',
+    subtitle: 'Angular · TypeScript · Node.js ',
+    desc: 'Developed an automated check deposit hold system integrated directly with the core banking system, reducing fraud by ~70% and cutting manual work by ~40%.',
+  },
+  {
+    img: coffeeCup,
     bg: '#8BAF5A',
     title: 'Digital Banking Platform',
     subtitle: 'Angular · Node.js · TypeScript',
     desc: 'Rebuilt and launched a full digital account opening and online banking experience. Reduced manual internal workflows by approximately 50% across the organization.',
-  },
-  {
-    img: coffeeCup,
-    bg: '#9B7CC8',
-    title: 'Fraud Prevention System',
-    subtitle: 'Node.js · Core Banking Integration',
-    desc: 'Developed an automated check deposit hold system integrated directly with the core banking system, reducing fraud by ~70% and cutting manual work by ~40%.',
   },
   {
     img: coffeeCup,

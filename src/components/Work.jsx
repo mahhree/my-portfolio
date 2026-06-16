@@ -29,14 +29,16 @@ const Work = ({ onAddItem }) => {
           from requirements all the way through to production.
         </p>
         <p>
-          I built ACH enrollment and remote deposit capture for business members from the ground up,
-          designing secure RESTful APIs and integrating third-party platforms using React and Python. As
-          the platform evolved, I rebuilt those features in Angular with Node.js as part of a larger
-          initiative to launch a new digital account opening and online banking experience. That rebuild
-          also included developing an automated check deposit hold system through a direct integration with
-          our core banking system, which reduced fraud by approximately 70% and cut manual internal work
-          by roughly 40%. Across both efforts I coordinated with multiple departments to gather
-          requirements, resolve bugs, and streamline internal workflows by approximately 50%.
+          In my current role I have worked across the full stack using React, Angular, TypeScript, Node.js, 
+          and Python to deliver features that directly improved business outcomes. I built ACH enrollment 
+          and remote deposit capture for business members from the ground up, designing secure RESTful APIs 
+          and integrating third-party platforms using React and Python. As the platform evolved, I rebuilt 
+          those features in Angular with Node.js as part of a larger initiative to launch a new digital 
+          account opening and online banking experience. That rebuild also included developing an automated 
+          check deposit hold system through a direct integration with our core banking system, which reduced 
+          fraud by approximately 70% and cut manual internal work by roughly 40%. Across both efforts I 
+          coordinated with multiple departments to gather requirements, resolve bugs, and streamline internal 
+          workflows by approximately 50%.
         </p>
         <p>
           Outside of work I maintain a React-based portfolio project on GitHub and I am currently working

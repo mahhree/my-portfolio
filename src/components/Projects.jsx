@@ -38,6 +38,7 @@ const Projects = ({ addedProjects, onAddProject }) => {
       </p>
 
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 24, padding: '0 40px' }}>
+
         {/* LEFT ARROW */}
         <button
           onClick={() => scroll(-1)}
@@ -46,7 +47,13 @@ const Projects = ({ addedProjects, onAddProject }) => {
         >‹</button>
 
         {/* CARDS */}
-        <div style={{ display: 'flex', gap: 28, alignItems: 'center', overflow: 'hidden', width: '100%', maxWidth: 860, justifyContent: 'center' }}>
+        <div style={{ display: 'flex', gap: 28, alignItems: 'center', width: '100%', maxWidth: 860, justifyContent: 'center' }}>
+
+          {/* LEFT GHOST — balances layout when first card is active */}
+          {activeIndex === 0 && (
+            <div style={{ width: 180, flexShrink: 0, visibility: 'hidden' }} />
+          )}
+
           {projects.map((project, i) => {
             const offset = i - activeIndex;
             if (Math.abs(offset) > 1) return null;
@@ -123,6 +130,12 @@ const Projects = ({ addedProjects, onAddProject }) => {
               </div>
             );
           })}
+
+          {/* RIGHT GHOST — balances layout when last card is active */}
+          {activeIndex === projects.length - 1 && (
+            <div style={{ width: 180, flexShrink: 0, visibility: 'hidden' }} />
+          )}
+
         </div>
 
         {/* RIGHT ARROW */}
