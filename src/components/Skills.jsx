@@ -2,7 +2,7 @@ import { skills, PRICES, SKILL_COLORS, fmt } from '../constants/data';
 
 const Skills = ({ activeSkills, onToggleSkill }) => {
   return (
-    <section id="skills" style={{ padding: '48px 48px 32px', borderTop: '1px solid #E0D4C3' }}>
+    <section id="skills" style={{ padding: '48px 48px 32px', borderTop: '1px solid #E0D4C3', textAlign: 'center' }}>
       <p style={{ fontSize: 11, letterSpacing: 3, color: '#9B7B5A', textTransform: 'uppercase', marginBottom: 6 }}>
         Customize Your Order
       </p>
@@ -10,9 +10,9 @@ const Skills = ({ activeSkills, onToggleSkill }) => {
         Skill Add-Ons
       </h2>
       <p style={{ fontSize: 13, color: '#9B7B5A', marginBottom: 28 }}>
-        Toggle the ones that matter to you — each adds {fmt(PRICES.skill)} to your tab.
+        Toggle the add-ons that matter to you.
       </p>
-      <div style={{ display: 'flex', flexWrap: 'wrap', gap: 12 }}>
+      <div style={{ display: 'flex', flexWrap: 'wrap', gap: 12, justifyContent: 'center' }}>
         {skills.map((skill, i) => {
           const active = activeSkills.includes(skill.name);
           return (

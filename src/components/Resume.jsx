@@ -10,7 +10,7 @@ const Resume = ({ onAddItem }) => {
         Download My Resume
       </h2>
       <p style={{ fontSize: 14, color: 'rgba(255,255,255,0.45)', marginBottom: 32, maxWidth: 400, margin: '0 auto 32px' }}>
-        A full overview of my experience, skills, and projects — all on one page.
+        A full overview of my experience, skills, and projects on one page.
       </p>
       <a
         href="/resume.pdf"

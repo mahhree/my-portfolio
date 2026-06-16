@@ -37,12 +37,14 @@ const socialLinks = [
 const Hero = ({ onAddItem }) => {
   return (
     <section id="about" style={{
-      display: 'flex',
+      display: 'grid',
+      gridTemplateColumns: '1fr 1fr 1fr',
       alignItems: 'center',
-      justifyContent: 'space-between',
       padding: '60px 48px 40px',
       gap: 40,
-      flexWrap: 'wrap',
+      maxWidth: 1200,
+      margin: '0 auto',
+      width: '100%',
     }}>
       {/* LEFT — BIO */}
       <div style={{ flex: '1 1 300px', maxWidth: 360 }}>
@@ -81,12 +83,11 @@ const Hero = ({ onAddItem }) => {
       </div>
 
       {/* CENTER — HERO IMAGE */}
-      <div style={{ flex: '0 0 auto', position: 'relative', width: 280, height: 280 }}>
+      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
         <div style={{
           width: 260,
           height: 260,
           borderRadius: '50%',
-          background: 'radial-gradient(circle, #8BAF5A 0%, #5C7A3A 100%)',
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
@@ -97,31 +98,14 @@ const Hero = ({ onAddItem }) => {
           <img
             src={IMAGES.coffeeMug}
             alt="hero"
-            style={{ width: 130, height: 130, objectFit: 'contain' }}
+            style={{ width: 200, height: 200, objectFit: 'contain' }}
           />
-        </div>
-        <div style={{
-          position: 'absolute',
-          bottom: 0,
-          left: '50%',
-          transform: 'translateX(-50%)',
-          background: '#2C1A0E',
-          color: '#F5EFE6',
-          padding: '8px 20px',
-          borderRadius: 8,
-          fontSize: 12,
-          fontWeight: 600,
-          letterSpacing: 1,
-          textTransform: 'uppercase',
-          whiteSpace: 'nowrap',
-        }}>
-          Welcome in!
         </div>
       </div>
 
       {/* RIGHT — SOCIAL LINKS */}
-      <div style={{ flex: '1 1 200px', maxWidth: 220, display: 'flex', flexDirection: 'column', gap: 12 }}>
-        <p style={{ fontSize: 11, letterSpacing: 2, color: '#9B7B5A', textTransform: 'uppercase', marginBottom: 4 }}>
+      <div style={{ display: 'flex', flexDirection: 'column', gap: 12, justifyContent: 'center'}}>
+        <p style={{ fontSize: 11, letterSpacing: 2, color: '#9B7B5A', textTransform: 'uppercase', marginBottom: 4}}>
           Find Me At
         </p>
         {socialLinks.map(({ label, price, href, icon }) => (
@@ -141,6 +125,7 @@ const Hero = ({ onAddItem }) => {
               borderRadius: 12,
               fontSize: 13,
               fontWeight: 600,
+              width: '100%',
             }}
           >
             <span style={{ display: 'flex', alignItems: 'center', gap: 8 }}>{icon}{label}</span>

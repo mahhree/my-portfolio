@@ -34,7 +34,7 @@ const Projects = ({ addedProjects, onAddProject }) => {
         Projects
       </h2>
       <p style={{ color: '#9B7B5A', textAlign: 'center', fontSize: 13, marginBottom: 32 }}>
-        Each project adds {fmt(PRICES.project)} to your tab
+        Each menu item adds {fmt(PRICES.project)} to your tab
       </p>
 
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 24, padding: '0 40px' }}>
