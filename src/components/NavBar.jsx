@@ -20,7 +20,7 @@ const NavBar = ({ total, onOpenReceipt }) => {
           alt="logo"
           style={{ width: 32, height: 32, objectFit: 'contain' }}
         />
-        <span style={{ fontWeight: 700, fontSize: 18, letterSpacing: 1 }}>Marie.dev</span>
+        <span style={{ fontWeight: 700, fontSize: 18, letterSpacing: 1 }}>Marie's Café</span>
       </div>
 
       {/* NAV LINKS */}

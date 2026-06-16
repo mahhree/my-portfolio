@@ -1,9 +1,11 @@
 import coffeeCup from '../assets/img/coffee_cup.png';
+import coffeeMug from '../assets/img/header-img.gif';
 import coffeeSmallLogo from '../assets/img/coffee_small_logo.png';
 import contactImg from '../assets/img/contact_me_img.png';
 
 export const IMAGES = {
   coffeeCup,
+  coffeeMug,
   coffeeSmallLogo,
   contactImg,
 };

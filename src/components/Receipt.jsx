@@ -28,7 +28,7 @@ const Receipt = ({ orderItems, total, onClose, onClear }) => {
         {/* RECEIPT HEADER */}
         <div style={{ textAlign: 'center', padding: '24px 32px 16px', borderBottom: '1px dashed #D4C4B0' }}>
           <div style={{ fontSize: 11, letterSpacing: 3, color: '#9B7B5A', textTransform: 'uppercase', marginBottom: 4 }}>
-            Marie.dev Café
+            Marie's Café
           </div>
           <div style={{ fontSize: 22, fontWeight: 700, color: '#2C1A0E' }}>Your Receipt</div>
           <div style={{ fontSize: 12, color: '#9B7B5A', marginTop: 4 }}>

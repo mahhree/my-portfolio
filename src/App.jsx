@@ -20,14 +20,12 @@ const App = () => {
 
   const total = orderItems.reduce((sum, item) => sum + item.price, 0);
 
-  // Add any item to the running tab
   const addItem = (label, price) => {
     setOrderItems((prev) => [...prev, { id: Date.now() + Math.random(), label, price }]);
     setToast(label);
     setTimeout(() => setToast(null), 2000);
   };
 
-  // Toggle skill add-ons on/off
   const toggleSkill = (name) => {
     if (activeSkills.includes(name)) {
       setActiveSkills((prev) => prev.filter((s) => s !== name));
@@ -42,14 +40,12 @@ const App = () => {
     }
   };
 
-  // Add a project once only
   const addProject = (title) => {
     if (addedProjects.includes(title)) return;
     setAddedProjects((prev) => [...prev, title]);
     addItem(title, PRICES.project);
   };
 
-  // Reset everything
   const clearOrder = () => {
     setOrderItems([]);
     setActiveSkills([]);
