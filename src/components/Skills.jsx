@@ -35,8 +35,8 @@ const Skills = ({ activeSkills, onToggleSkill }) => {
               }}
             >
               <div style={{
-                width: 28,
-                height: 28,
+                width: 35,
+                height: 35,
                 borderRadius: '50%',
                 background: SKILL_COLORS[i],
                 display: 'flex',
@@ -45,7 +45,7 @@ const Skills = ({ activeSkills, onToggleSkill }) => {
                 overflow: 'hidden',
                 flexShrink: 0,
               }}>
-                <img src={skill.img} alt={skill.name} style={{ width: 16, height: 16, objectFit: 'contain' }} />
+                <img src={skill.img} alt={skill.name} style={{ width: 26, height: 25, objectFit: 'contain' }} />
               </div>
               {skill.name}
               <span style={{ fontSize: 11, opacity: 0.7 }}>
