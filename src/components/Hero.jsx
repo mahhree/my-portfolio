@@ -58,8 +58,8 @@ const Hero = ({ onAddItem }) => {
           Full-Stack Software Engineer · Premier America Credit Union
         </p>
         <p style={{ fontSize: 15, lineHeight: 1.7, color: '#5C3D2E', marginBottom: 28 }}>
-          Building production-grade platforms that serve real members every day.
-          I work across React, Angular, Node.js, TypeScript, and Python and I'm always working on something new.
+          Welcome to my "coffee shop" portfolio. Look around and "shop" for what you love in a developer.
+          I work across React, Angular, Node.js, TypeScript, and Python. I'm always working on something new.
         </p>
         <a
           href="mailto:marie@email.com"
